@@ -23,6 +23,7 @@ Model: Define a entidade Produto e suas restrições de persistência.
 Um dos pontos interessantes desta API é a capacidade de realizar adições em massa através do endpoint /salvarLista. Diferente de implementações convencionais que processam um item por vez, esta funcionalidade utiliza o método saveAll para otimizar o fluxo de escrita no banco de dados. Abordagem fundamental para cenários de alta demanda. Ao enviar um array de objetos JSON via Postman, o backend processa a coleção completa atribuindo IDs.
 
 <h3> 📑 Endpoints da API </h3>
+
 | Método | Endpoint | Funcionalidade |
 | :--- | :--- | :--- |
 | **GET** | `/produtos` | Lista todos os produtos cadastrados. |
