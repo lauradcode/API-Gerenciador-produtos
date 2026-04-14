@@ -1,5 +1,12 @@
 <h2> API Gerenciador de Produtos </h2> 
-Este projeto é uma API RESTful desenvolvida para o gerenciamento eficiente de produtos, permitindo operações individuais e processamento em lote, integrada a uma interface web para visualização dinâmica.
+API RESTful para gerenciamento de produtos com suporte a operações em lote, 
+projetada para cenários de alta demanda e otimização de escrita em banco de dados.
+Inclui integração frontend para visualização dinâmica dos dados.
+
+<h3> Diferenciais </h3>
+- Cadastro em massa otimizado com saveAll (melhor performance)
+- Arquitetura em camadas bem definida
+- Integração full stack (API + frontend)
 
 <h3> 🛠 Tecnologias Utilizadas </h3> 
 Java 22 e Spring Boot 3 como base do ecossistema.
@@ -51,17 +58,28 @@ A API estará ativa em http://localhost:8080. A interface web pode ser visualiza
 <h3> Integração Frontend e CORS </h3>
 Foi desenvolvida uma interface utilizando HTML e JavaScript para mostrar a tabela final dos produtos na web. A comunicação ocorre por meio da Fetch API, que consome os endpoints da API para renderizar dinamicamente uma tabela de produtos. Para haver essa troca de informações entre backend e frontend, foi implementada a configuração de CORS (Cross-Origin Resource Sharing) no controlador principal, para não haver bloqueio do navegador.
 
-<p align="center"> Estrutura Package Explorer 
+##  Demonstração
+
+### Estrutura do projeto
+
+<p align="center"> 
   <img src="Assets/organizacaoPackageExplorer.png" width="600">
 </p>
 
-<p align="center"> Adicionando produtos com POST
+### Cadastro em massa via POST
+
+<p align="center"> 
   <img src="Assets/POST.png" width="600">
 </p>
-<p align="center"> Buscando a lista de produtos com GET
+
+### Listagem via GET
+
+<p align="center"> 
   <img src="Assets/GET.png" width="600">
 </p>
 
-<p align="center"> Tabela na Web
+### Interface Web
+
+<p align="center">
   <img src="Assets/tabelaWebEPostman.png" width="600">
 </p>
