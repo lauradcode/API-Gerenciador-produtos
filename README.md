@@ -35,12 +35,16 @@ Um dos pontos interessantes desta API é a capacidade de realizar adições em m
 
 <h3> Como Executar o Projeto </h3>
 Para rodar a aplicação localmente, siga os passos abaixo:
+
 1. Clonar o repositório:
 git clone https://github.com/lauradcode/API-Gerenciador-produtos.git
+
 2. Compilar e instalar dependências:
 mvn clean install
+
 3. Iniciar a aplicação:
 mvn spring-boot:run
+
 4. Acesso:
 A API estará ativa em http://localhost:8080. A interface web pode ser visualizada abrindo o arquivo client-web-listagem.html no seu navegador.
 
