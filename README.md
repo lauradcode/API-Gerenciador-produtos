@@ -25,13 +25,12 @@ Um dos pontos interessantes desta API é a capacidade de realizar adições em m
 <h3> 📑 Endpoints da API </h3>
 | Método | Endpoint | Funcionalidade |
 | :--- | :--- | :--- |
-| GET | /produtos | Lista todos os produtos cadastrados. |
-| GET | /produtos/{id} | Busca os detalhes de um produto específico. |
-| POST /produtos,Realiza o cadastro de um único item.  |
-| POST | /produtos  | Realiza o cadastro de um único item.  |
-| POST  | /produtos/salvarLista  | Cadastro em massa via lista de objetos.  |
-| PUT  | /produtos/{id}  | Atualiza as informações de um registro existente.  |
-| DELETE  | /produtos/{id}  | Remove permanentemente um produto do sistema.  |
+| **GET** | `/produtos` | Lista todos os produtos cadastrados. |
+| **GET** | `/produtos/{id}` | Busca detalhes de um produto específico. |
+| **POST** | `/produtos` | Realiza o cadastro de um único item. |
+| **POST** | `/produtos/salvarLista` | Cadastro em massa via lista de objetos. |
+| **PUT** | `/produtos/{id}` | Atualiza um registro existente. |
+| **DELETE** | `/produtos/{id}` | Remove permanentemente um produto do sistema. |
 
 <h3> Como Executar o Projeto </h3>
 Para rodar a aplicação localmente, siga os passos abaixo:
