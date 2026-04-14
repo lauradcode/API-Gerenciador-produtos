@@ -23,15 +23,15 @@ Model: Define a entidade Produto e suas restrições de persistência.
 Um dos pontos interessantes desta API é a capacidade de realizar adições em massa através do endpoint /salvarLista. Diferente de implementações convencionais que processam um item por vez, esta funcionalidade utiliza o método saveAll para otimizar o fluxo de escrita no banco de dados. Abordagem fundamental para cenários de alta demanda. Ao enviar um array de objetos JSON via Postman, o backend processa a coleção completa atribuindo IDs.
 
 <h3> 📑 Endpoints da API </h3>
-Método | Endpoint | Funcionalidade |
+| Método | Endpoint | Funcionalidade |
 | :--- | :--- | :--- |
-GET | /produtos | Lista todos os produtos cadastrados. |
-GET | /produtos/{id} | Busca os detalhes de um produto específico. |
-POST /produtos,Realiza o cadastro de um único item.  |
-POST | /produtos  | Realiza o cadastro de um único item.  |
-POST  | /produtos/salvarLista  | Cadastro em massa via lista de objetos.  |
-PUT  | /produtos/{id}  | Atualiza as informações de um registro existente.  |
-DELETE  | /produtos/{id}  | Remove permanentemente um produto do sistema.  |
+| GET | /produtos | Lista todos os produtos cadastrados. |
+| GET | /produtos/{id} | Busca os detalhes de um produto específico. |
+| POST /produtos,Realiza o cadastro de um único item.  |
+| POST | /produtos  | Realiza o cadastro de um único item.  |
+| POST  | /produtos/salvarLista  | Cadastro em massa via lista de objetos.  |
+| PUT  | /produtos/{id}  | Atualiza as informações de um registro existente.  |
+| DELETE  | /produtos/{id}  | Remove permanentemente um produto do sistema.  |
 
 <h3> Como Executar o Projeto </h3>
 Para rodar a aplicação localmente, siga os passos abaixo:
