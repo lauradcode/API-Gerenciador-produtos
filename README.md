@@ -4,11 +4,15 @@ projetada para cenários de alta demanda e otimização de escrita em banco de d
 Inclui integração frontend para visualização dinâmica dos dados.
 
 <h3> Diferenciais </h3>
-- Cadastro em massa otimizado com saveAll (melhor performance)
-- Arquitetura em camadas bem definida
-- Integração full stack (API + frontend)
 
-<h3> 🛠 Tecnologias Utilizadas </h3> 
+Cadastro em massa otimizado com saveAll (melhor performance)
+
+Arquitetura em camadas bem definida
+
+Integração full stack (API + frontend)
+
+
+<h3> Tecnologias Utilizadas </h3> 
 Java 22 e Spring Boot 3 como base do ecossistema.
 Spring Data JPA para abstração da camada de dados.
 SQLite para persistência de dados local e leve.
@@ -29,7 +33,7 @@ Model: Define a entidade Produto e suas restrições de persistência.
 <h3> Cadastro em massa </h3>
 Um dos pontos interessantes desta API é a capacidade de realizar adições em massa através do endpoint /salvarLista. Diferente de implementações convencionais que processam um item por vez, esta funcionalidade utiliza o método saveAll para otimizar o fluxo de escrita no banco de dados. Abordagem fundamental para cenários de alta demanda. Ao enviar um array de objetos JSON via Postman, o backend processa a coleção completa atribuindo IDs.
 
-<h3> 📑 Endpoints da API </h3>
+<h3> Endpoints da API </h3>
 
 | Método | Endpoint | Funcionalidade |
 | :--- | :--- | :--- |
