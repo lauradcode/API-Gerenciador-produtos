@@ -1,5 +1,5 @@
 <h2> API Gerenciador de Produtos </h2> 
-API RESTful para gerenciamento de produtos com suporte a operações em lote, projetada para cenários de alta demanda e otimização de escrita em banco de dados. Inclui integração frontend para visualização dinâmica dos dados.
+API RESTful para gerenciamento de produtos com suporte a operações em lote. Inclui integração frontend para visualização dinâmica dos dados.
 
 
 
